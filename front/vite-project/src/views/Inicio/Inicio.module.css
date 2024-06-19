@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  
+  header {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .hero {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    color: #6a1b9a;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    
+  }
+  
+  .hero p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+  .location {
+    margin-top: 40px;
+  }
+  
+  .location h2 {
+    color: #6a1b9a;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 1px; 
+    
+  }
+  
+ 
+  .contactButton {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contactButton button {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contactButton button:hover {
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+  }
+  .hero button:hover {
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+  }
+  
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    header h1 {
+      margin-bottom: 10px;
+    }
+  }
+  

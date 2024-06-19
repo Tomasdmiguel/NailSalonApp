@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+  font-size: 16px; /* Tamaño de fuente base */
+  line-height: 1.5; /* Altura de línea recomendada */
+  background: #8e9eab; /* fallback for old browsers */
+  background: #cc95c0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7aa1d2,
+    #dbd4b4,
+    #cc95c0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #7aa1d2,
+    #dbd4b4,
+    #cc95c0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

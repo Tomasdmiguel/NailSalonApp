@@ -1,0 +1,29 @@
+.turnoContainer {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(33.33% - 40px);
+  max-width: 400px;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 200px;
+  flex-shrink: 1;
+}
+.turnoTitle {
+  color: #6a1b9a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.turnoContainer:hover {
+  box-shadow: 0 4px 8px rgba(106, 27, 154, 0.3);
+}
+
+.turnoContainer.cancelado {
+  background-color: #ffcccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

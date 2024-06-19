@@ -1,0 +1,25 @@
+.title {
+    color: #333;
+    font-size: 2em; 
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .subtitle {
+    color: #666; 
+    text-align: center;
+  }
+  
+  .carouselContainer {
+    margin-top: 20px; 
+  }
+  
+  .carouselImage {
+    object-fit: cover; 
+    max-height: 400px; 
+  }
+
+  .textblack{
+    margin-top: 100px;
+    color: rgb(111, 34, 253);
+  }
